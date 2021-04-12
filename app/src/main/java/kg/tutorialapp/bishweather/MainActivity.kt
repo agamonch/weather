@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val mText = findViewById<TextView>(R.id.mText)
-        mText.text = "Privet Vsem"
-        mText.setTextSize(TypedValue.COMPLEX_UNIT_PX, 30F)
+        mText.text = "Privet Vsem!"
+        mText.setTextSize(TypedValue.COMPLEX_UNIT_PX, 60F)
         val but1 = findViewById<Button>(R.id.button1)
         val but2 = findViewById<Button>(R.id.button2)
 
